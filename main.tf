@@ -6,3 +6,5 @@ resource "aws_ecs_cluster" "cluster" {
   }
   capacity_providers = ["FARGATE", ]
 }
+
+############
